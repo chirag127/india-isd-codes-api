@@ -1,0 +1,73 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "India ISD/STD Codes",
+    "description": "Country calling code and state-wise STD codes",
+    "version": "1.0.0",
+    "license": {
+      "name": "CC-BY-4.0"
+    }
+  },
+  "servers": [
+    {
+      "url": "https://chirag127.github.io/india-isd-codes",
+      "description": "GitHub Pages"
+    }
+  ],
+  "paths": {
+    "/data.json": {
+      "get": {
+        "summary": "India ISD/STD Codes data",
+        "description": "Country calling code and state-wise STD codes",
+        "responses": {
+          "200": {
+            "description": "JSON response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/country-code": {
+      "get": {
+        "summary": "India ISD/STD Codes",
+        "description": "Country calling code and state-wise STD codes",
+        "responses": {
+          "200": {
+            "description": "JSON response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/std-codes": {
+      "get": {
+        "summary": "India ISD/STD Codes",
+        "description": "Country calling code and state-wise STD codes",
+        "responses": {
+          "200": {
+            "description": "JSON response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+# India ISD/STD Codes
+
+Country calling code and state-wise STD codes
+
+- API: https://chirag127.github.io/india-isd-codes/data.json
+- OpenAPI: https://chirag127.github.io/india-isd-codes/openapi.json
+- Schema: https://chirag127.github.io/india-isd-codes/data/schema.json
+- License: CC-BY-4.0
+- Source: TRAI reference
+- Status: india-isd-codes

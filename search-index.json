@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-08-25T03:52:43.044Z",
+  "fields": [
+    "id",
+    "name",
+    "keywords"
+  ],
+  "records": [
+    {
+      "id": "india-isd-codes",
+      "name": "India ISD/STD Codes",
+      "keywords": "india isd/std codes india-isd-codes india-ref isd code std code country code calling code"
+    }
+  ]
+}
